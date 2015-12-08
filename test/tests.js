@@ -21,3 +21,15 @@ describe("App", () => {
     expect(isCompositeComponent(app)).to.be.ok
   })
 })
+
+describe("Game", () => {
+  let game
+
+  beforeEach(() => {
+    game = renderIntoDocument(<Game/>)
+  })
+
+  it("is a composite component", () => {
+    expect(isCompositeComponent(game)).to.be.ok
+  })
+})
