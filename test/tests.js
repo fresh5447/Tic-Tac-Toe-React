@@ -4,6 +4,7 @@ import TestUtils from 'react-addons-test-utils'
 import { expect } from 'chai'
 
 import App from '../app/components/app.jsx!'
+import Game from '../app/components/game.jsx!'
 
 const {
   isCompositeComponent,
