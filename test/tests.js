@@ -3,6 +3,8 @@ import TestUtils from 'react-addons-test-utils'
 
 import { expect } from 'chai'
 
+import App from '../app/components/app.jsx!'
+
 const {
   isCompositeComponent,
   renderIntoDocument,
